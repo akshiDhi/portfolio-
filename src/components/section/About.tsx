@@ -19,10 +19,9 @@ const About = () => {
   const themeColors = useThemeColors();
 
   const roles = [
-    'Software Engineer',
-    'Full-Stack Developer',
-    'Systems Engineer',
-    'Frontend Developer',
+    'CS student at IIT ropar',
+    'Research Intern',
+    'Compiler & Performance Enthusiast'
   ];
 
   const profileImages = [
