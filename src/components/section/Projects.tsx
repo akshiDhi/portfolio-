@@ -228,14 +228,15 @@ const Projects = () => {
 
   // project data - these are the main cards
   const projects = [
-    {
-      title: "Project One",
-      description: "A brief description of your first project. Highlight the key features and what makes it unique.",
-      technologies: ["React", "TypeScript", "Node.js", "MongoDB"],
-      icon: comingSoon,
-      detailsUrl: "/projects/project-one",
-      githubUrl: socialLinks.repositories.projectOne
-    },
+      
+  {
+  title: "Instruction Level Parallelism Analyzer",
+  description: "Built a performance analysis tool that processes real execution traces collected using Intel Pin (PinTool). Designed backend logic to analyze instruction streams, compute ILP metrics, and visualize execution behavior through a browser-based interface.",
+  technologies: ["C++", "Intel Pin", "JavaScript", "HTML", "CSS"],
+  icon: comingSoon,
+  detailsUrl: "/projects/instruction-level-parallelism",
+  githubUrl: "https://github.com/akshiDhi/ilp-analyzer"
+},
     {
       title: "Project Two",
       description: "A brief description of your second project. Highlight the key features and what makes it unique.",
